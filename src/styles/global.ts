@@ -4,6 +4,16 @@ import 'react-toastify/dist/ReactToastify.css';
 import background from '../assets/images/background.svg';
 
 export default createGlobalStyle`
+  ::-webkit-scrollbar{
+    width: 4px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #191920;
+  }
+  ::-webkit-scrollbar-track{
+    background: #000;
+  }
+
   * {
     margin: 0;
     padding: 0;
